@@ -1,0 +1,20 @@
+apply plugin: 'java'
+
+// please do not change this name
+archivesBaseName = 'solution'
+
+dependencies {
+    //do not change it
+    compile files('libs/real.jar')
+}
+
+jar {
+    manifest {
+        // change main class name if its different than this
+        attributes 'Main-Class': 'com.tigerit.solution.Solution'
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.8'
+}
