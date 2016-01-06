@@ -6,7 +6,7 @@ archivesBaseName = 'solution'
 
 dependencies {
     //do not change it
-    compile files('libs/real.jar')
+    compile files('libs/sudo.jar')
 }
 
 // change main class name if its different than this
