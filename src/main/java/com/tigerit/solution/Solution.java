@@ -1,6 +1,6 @@
 package com.tigerit.solution;
 
-import com.tigerit.io
+import com.tigerit.io.*;
 
 public class Solution {
     public static void main(String... args) {
