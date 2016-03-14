@@ -1,4 +1,4 @@
-# Read following points very carefully before you start
+# Read theses very carefully before you start
 
 ### How it works:
 
