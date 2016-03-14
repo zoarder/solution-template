@@ -1,23 +1,9 @@
+// do not change anything inside this file; That may lead to un testable output
 apply plugin: 'java'
 apply plugin: 'application'
 
-// please do not change this name
 archivesBaseName = 'solution'
-
-dependencies {
-    //do not change it
-    compile files('libs/sudo.jar')
-}
-
-// change main class name if its different than this
-mainClassName = 'com.tigerit.solution.Solution'
-
-jar {
-    manifest {
-        // change main class name if its different than this
-        attributes 'Main-Class': 'com.tigerit.solution.Solution'
-    }
-}
+mainClassName = 'com.tigerit.exam.CommandLineApp'
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.8'
