@@ -11,5 +11,6 @@ public class Solution implements Runnable {
     @Override
     public void run() {
         // your application logic goes here.
+        System.out.println("your application logic goes here.");
     }
 }
