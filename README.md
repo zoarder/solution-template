@@ -26,4 +26,4 @@
 
 * Do not change anything inside `build.gradle` file. That may cause failure building your application.
 * Do not use any external `jar` file as your solution dependencies (you may add source to your project). 
-* Use standard input/output for your application testing (we will redirect that to file input/output when we testing).
+* Use standard input/output for your application testing (we will redirect that to file input/output when we test).
