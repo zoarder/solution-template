@@ -9,8 +9,8 @@
 * We will automatically clone your repo, compile it and run against our own input set.
 * This template is managed using gradle build system.
 * To use gradle you do not need to install gradle by yourself. build system will automatically download it.
-* There are two different files inside project root directory (`gradle.bat and gradlew`).
-* Use `gradle.bat` if you are in Windows system.
+* There are two different files inside project root directory (`gradlew.bat and gradlew`).
+* Use `gradlew.bat` if you are in Windows system.
 * Use `gradlew` if you are in Unix system.
 * Compile project using `./gradlew compile` command in unix system or `gradlew.bat` command in windows.
 * Run the application and test using `./gradlew -q run` in unix system or `gradlew.bat -q run` in windows system.
