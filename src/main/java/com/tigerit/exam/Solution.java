@@ -1,10 +1,7 @@
 package com.tigerit.exam;
 
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Scanner;
+import static com.tigerit.exam.IO.*;
 
 /**
  * All of your application logic should be placed inside this class.
@@ -15,12 +12,15 @@ import java.util.Scanner;
 public class Solution implements Runnable {
     @Override
     public void run() {
-        // your application logic goes here.
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        try {
-            System.out.println("Hello " + reader.readLine());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        // your application entry point
+
+        // sample input process
+        String string = readLine();
+
+        Integer integer = readLineAsInteger();
+
+        // sample output process
+        printLine(string);
+        printLine(integer);
     }
 }
