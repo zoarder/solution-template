@@ -5,6 +5,10 @@ apply plugin: 'application'
 archivesBaseName = 'solution'
 mainClassName = 'com.tigerit.exam.CommandLineApp'
 
+run {
+    standardInput = System.in
+}
+
 task wrapper(type: Wrapper) {
     gradleVersion = '2.8'
 }
