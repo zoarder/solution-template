@@ -12,8 +12,8 @@
 * There are two different files inside project root directory (`gradle.bat and gradlew`).
 * Use `gradle.bat` if you are in Windows system.
 * Use `gradlew` if you are in Unix system.
-* Compile project using `./gradlew compile` command in unix system or `gradle.bat` command in windows.
-* Run the application and test using `./gradlew -q run` in unix system or `gradle.bat -q run` in windows system.
+* Compile project using `./gradlew compile` command in unix system or `gradlew.bat` command in windows.
+* Run the application and test using `./gradlew -q run` in unix system or `gradlew.bat -q run` in windows system.
 * All of you application logic should be placed inside `Solution` class.
 * `Solution` class is located inside `./src/main/java/com/tigerit/exam/` directory
 * If you have any questions, feel free feel free to contact us (faisal.ahmed@tigeritbd.com, zobayer@tigeritbd.com).
