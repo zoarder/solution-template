@@ -1,4 +1,5 @@
-// do not change anything inside this file; That may lead to un testable output
+// CAUTION!!: DO NOT CHANGE ANYTHING.
+
 apply plugin: 'java'
 apply plugin: 'application'
 
