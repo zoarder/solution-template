@@ -16,7 +16,7 @@
 * Compile command for Unix is `./gradlew -q compileJava` and for windows is `gradlew.bat -q compileJava`.
 * Run the application and test using `./gradlew -q run` in unix system or `gradlew.bat -q run` in windows system.
 * All of you application logic should be placed inside `Solution` class.
-* `Solution` class is located inside `./src/main/java/com/tigerit/exam/` directory
+* `Solution` class is located inside `./src/main/java/com/tigerit/exam/` directory.
 * There is a IO helper class named `./src/main/java/com/tigerit/exam/IO.java` for your convenience.
 * If you have any questions, feel free feel free to contact us (faisal.ahmed@tigeritbd.com, zobayer@tigeritbd.com).
 
